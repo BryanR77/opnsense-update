@@ -1,0 +1,13 @@
+- name: Update OpnSense
+  hosts: all
+  vars:
+    ansible_become: false
+  roles:
+    - role: ansible-opnsense-facts
+      tags:
+        - opnsense
+        - facts
+    - role: ansible-opnsense-update
+      tags:
+        - opnsense
+        - update

@@ -1,6 +1,8 @@
 [submodule "ansible-opnsense-facts"]
 	path = ansible-opnsense-facts
 	url = https://github.com/Rosa-Luxemburgstiftung-Berlin/ansible-opnsense-facts.git
+	branch = v0.5
 [submodule "ansible-opnsense-update"]
 	path = ansible-opnsense-update
 	url = https://github.com/Rosa-Luxemburgstiftung-Berlin/ansible-opnsense-update.git
+	branch = v25.6.0
